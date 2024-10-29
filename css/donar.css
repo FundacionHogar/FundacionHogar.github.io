@@ -1,0 +1,165 @@
+.contacto {
+    padding: 10%;
+    display: grid;
+}
+
+
+.titulo {
+    margin-left: 25%;
+    font-size: 40px;
+    color: #50b3a2;
+}
+
+.container-contacto {
+    margin-left: 27%;
+    
+}
+
+.container-contacto h2{
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-bottom: 40px;
+    color: #50b3a2;
+}
+
+.container-contacto .escribir {
+    padding: 12px;
+    background-color: #50b3a2;
+    border: 2px solid #50b3a2;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.escribir a{
+    font-size: 20px;
+    color: #fff;
+    
+}
+
+
+.escribir:hover {
+    background-color: #27796b;
+}
+
+
+.boton-numero-telefono {
+    padding-right: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton-numero-telefono p {
+    margin-left: 180px;
+}
+
+.numero-telefono .numero {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.correo {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.texto {
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+
+
+.texto h2 {
+    margin-left: 37%;
+    margin-bottom: 40px;
+    color: #50b3a2;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1170px) {
+    
+    .container-contacto {
+        margin-left: 1%;
+        
+    }
+    .container-contacto h2{
+        margin-top: 30px;
+        margin-left: 15%;
+        margin-bottom: 40px;
+        color: #50b3a2;
+    }
+    
+    .container-contacto .escribir {
+        padding: 12px;
+        background-color: #50b3a2;
+        border: 2px solid #50b3a2;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+    }
+    
+    .escribir a{
+        font-size: 20px;
+        color: #fff;
+        
+    }
+    
+    
+    .escribir:hover {
+        background-color: #27796b;
+    }
+    
+    
+    .boton-numero-telefono {
+        padding-right: 40%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .boton-numero-telefono p {
+        margin-left: 50px;
+    }
+    
+    .numero-telefono .numero {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    
+    .correo {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+
+    .texto {
+        margin-top: 70px;
+        font-size: 20px;
+    }
+    
+    
+    
+    .texto h2 {
+        margin-left: 27%;
+        margin-bottom: 40px;
+        color: #50b3a2;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+

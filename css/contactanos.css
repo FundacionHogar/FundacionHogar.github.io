@@ -1,0 +1,745 @@
+
+.eslogan {
+    margin-top: 120px;
+}
+
+.container-eslogan {
+    border: 2px solid #50b3a2;
+    border-radius: 20px;
+    margin-left: 20%;
+    padding: 25px;
+    width: 800px;
+    background-color: #50b3a2;
+}
+
+
+
+.container-eslogan h3 {
+    margin-left: 13%;
+    font-size: 28px;
+    color: #fff;
+
+}
+
+.container-eslogan h4 {
+    margin-left: 35%;
+    color: #fff;
+
+}
+
+
+.donacion {
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 20%;
+    padding-bottom: 50px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-donacion {
+    margin: 20px;
+    padding: 30px;
+    width: 700px;
+    border: 5px solid #50b3a2;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.container-donacion h1 {
+    padding-left: 34%;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.container-donacion h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+.container-donacion p {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.container-donacion img {
+    padding-bottom: 20%;
+    width: 540px;
+}
+
+.container-cuentas{
+    margin-left: 100px;
+}
+
+.container-cuentas h1 {
+    margin-top: 120px;
+    margin-bottom: 80px;
+    font-size: 30px;
+}
+
+.container-cuentas p {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.donaciones {
+    display: grid;
+}
+
+.donaciones h1 {
+    margin-top: 90px;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    padding-left: 65px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 560px;
+    background-color: #50b3a2;
+    color: #fff;
+    border: 2px solid #50b3a2;
+    border-radius: 20px;
+    
+}
+
+
+.container-donaciones {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.ropa {
+    width: 300px;
+    height: 650px;
+    border: 2px solid #50b3a2;
+    border-radius: 20px;
+}
+
+.ropa img {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+
+.ropa h2 {
+    margin-left: 100px;
+}
+
+.ropa p{
+    padding: 20px;
+}
+
+
+
+
+.libro {
+    width: 300px;
+    height: 650px;
+    border: 2px solid #50b3a2;
+    border-radius: 20px;
+
+
+}
+
+.libro img {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+
+}
+
+.libro h2{
+    margin-left: 100px;
+}
+
+.libro p {
+    padding: 20px;
+
+}
+
+
+
+.mercado {
+    width: 300px;
+    height: 650px;
+    border: 2px solid #50b3a2;
+    border-radius: 20px;
+
+
+}
+
+.mercado img {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+
+}
+
+.mercado h2 {
+    margin-left: 100px;
+
+} 
+
+.mercado p {
+    padding: 20px;
+
+}
+
+
+
+
+
+.zapatillas {
+    width: 300px;
+    height: 650px;
+    border: 2px solid #50b3a2;
+    border-radius: 20px;
+
+
+}
+
+.zapatillas img {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+
+}
+
+.zapatillas h2 {
+    margin-left: 50px;
+
+}
+
+.zapatillas p{
+    padding: 20px;
+
+}
+
+
+.boton-donar a{
+    color: #fff;
+}
+
+.ropa .boton-donar {
+    margin-top: 70px;
+    margin-left: 110px;
+
+
+    padding: 10px;
+    font-size: 20px;
+
+    background-color: #50b3a2;
+    border: 2px solid #50b3a2;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+
+
+.ropa .boton-donar:hover {
+    font-size: 20px;
+    background-color: #27796b;
+
+}
+
+
+
+
+
+
+
+
+
+.libro .boton-donar {
+    margin-top: 35px;
+    margin-left: 110px;
+
+
+    padding: 10px;
+    font-size: 20px;
+
+    background-color: #50b3a2;
+    border: 2px solid #50b3a2;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    
+
+}
+
+.libro .boton-donar:hover {
+    font-size: 20px;
+    background-color: #27796b;
+
+}
+
+
+
+
+
+
+
+
+.mercado .boton-donar {
+    margin-top: 55px;
+    margin-left: 110px;
+
+
+    padding: 10px;
+    font-size: 20px;
+    background-color: #50b3a2;
+    border: 2px solid #50b3a2;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    
+
+}
+
+.mercado .boton-donar:hover {
+    font-size: 20px;
+    background-color: #27796b;
+
+}
+
+
+
+
+
+.zapatillas .boton-donar {
+    margin-top: 38px;
+    margin-left: 110px;
+
+
+    padding: 10px;
+    font-size: 20px;
+    background-color: #50b3a2;
+    border: 2px solid #50b3a2;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+
+}
+
+.zapatillas .boton-donar:hover {
+    font-size: 20px;
+    background-color: #27796b;
+
+}
+
+
+.container-cuentas .boton-donar {
+    margin-top: 55px;
+
+
+    padding: 10px;
+    font-size: 30px;
+    background-color: #50b3a2;
+    border: 2px solid #50b3a2;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    
+
+}
+
+.container-cuentas .boton-donar:hover {
+    font-size: 30px;
+    background-color: #27796b;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1170px) {
+
+    
+.eslogan {
+    margin-top: 180px;
+}
+
+.container-eslogan {
+    border: 2px solid #50b3a2;
+    border-radius: 20px;
+    margin-left: 10%;
+    padding: 25px;
+    width: 400px;
+    background-color: #50b3a2;
+}
+
+
+
+.container-eslogan h3 {
+    margin-left: 13%;
+    font-size: 19px;
+    color: #fff;
+
+}
+
+.container-eslogan h4 {
+    margin-left: 35%;
+    color: #fff;
+
+}
+
+.donacion {
+    margin-top: 30px;
+    margin-left: 9%;
+    margin-right: 20%;
+    padding-bottom: 50px; 
+    display: grid;
+}
+
+.container-donacion {
+    margin: 20px;
+    padding: 30px;
+    width: 370px;
+    border: 5px solid #50b3a2;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.container-donacion h1 {
+    padding-left: 14%;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.container-donacion h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+.container-donacion p {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.container-donacion img {
+    padding-bottom: 20%;
+    width: 320px;
+}
+
+.container-cuentas{
+    margin-left: 50px;
+}
+
+.container-cuentas h1 {
+    margin-top: 120px;
+    margin-bottom: 80px;
+    font-size: 30px;
+}
+
+.container-cuentas p {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+.donaciones {
+    display: grid;
+}
+
+.donaciones h1 {
+    margin-top: 90px;
+    margin-left: 14%;
+    margin-bottom: 10px;
+    padding-left: 65px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 360px;
+    background-color: #50b3a2;
+    color: #fff;
+    border: 2px solid #50b3a2;
+    border-radius: 20px;
+    
+}
+
+
+.container-donaciones {
+    margin-left: 7%;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding: 60px;
+    display: grid;
+    
+}
+
+
+
+.ropa {
+    width: 300px;
+    height: 650px;
+    border: 2px solid #50b3a2;
+    border-radius: 20px;
+}
+
+.ropa img {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+
+.ropa h2 {
+    margin-left: 100px;
+}
+
+.ropa p{
+    padding: 20px;
+}
+
+
+
+
+.libro {
+    margin-top: 40px;
+    width: 300px;
+    height: 650px;
+    border: 2px solid #50b3a2;
+    border-radius: 20px;
+
+
+}
+
+.libro img {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+
+}
+
+.libro h2{
+    margin-left: 100px;
+}
+
+.libro p {
+    padding: 20px;
+
+}
+
+
+
+.mercado {
+    margin-top: 40px;
+    width: 300px;
+    height: 650px;
+    border: 2px solid #50b3a2;
+    border-radius: 20px;
+
+
+}
+
+.mercado img {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+
+}
+
+.mercado h2 {
+    margin-left: 100px;
+
+} 
+
+.mercado p {
+    padding: 20px;
+
+}
+
+
+
+
+
+.zapatillas {
+    margin-top: 40px;
+    width: 300px;
+    height: 650px;
+    border: 2px solid #50b3a2;
+    border-radius: 20px;
+
+
+}
+
+.zapatillas img {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+
+}
+
+.zapatillas h2 {
+    margin-left: 50px;
+
+}
+
+.zapatillas p{
+    padding: 20px;
+
+}
+
+
+.boton-donar a{
+    color: #fff;
+}
+
+.ropa .boton-donar {
+    margin-top: 70px;
+    margin-left: 110px;
+
+
+    padding: 10px;
+    font-size: 20px;
+
+    background-color: #50b3a2;
+    border: 2px solid #50b3a2;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+
+
+.ropa .boton-donar:hover {
+    font-size: 20px;
+    background-color: #27796b;
+
+}
+
+
+
+
+
+
+
+
+
+.libro .boton-donar {
+    margin-top: 35px;
+    margin-left: 110px;
+
+
+    padding: 10px;
+    font-size: 20px;
+
+    background-color: #50b3a2;
+    border: 2px solid #50b3a2;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    
+
+}
+
+.libro .boton-donar:hover {
+    font-size: 20px;
+    background-color: #27796b;
+
+}
+
+
+
+
+
+
+
+
+.mercado .boton-donar {
+    margin-top: 55px;
+    margin-left: 110px;
+
+
+    padding: 10px;
+    font-size: 20px;
+    background-color: #50b3a2;
+    border: 2px solid #50b3a2;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    
+
+}
+
+.mercado .boton-donar:hover {
+    font-size: 20px;
+    background-color: #27796b;
+
+}
+
+
+
+
+
+.zapatillas .boton-donar {
+    margin-top: 38px;
+    margin-left: 110px;
+
+
+    padding: 10px;
+    font-size: 20px;
+    background-color: #50b3a2;
+    border: 2px solid #50b3a2;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+
+}
+
+.zapatillas .boton-donar:hover {
+    font-size: 20px;
+    background-color: #27796b;
+
+}
+
+
+.container-cuentas .boton-donar {
+    margin-top: 55px;
+
+
+    padding: 10px;
+    font-size: 30px;
+    background-color: #50b3a2;
+    border: 2px solid #50b3a2;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    
+
+}
+
+.container-cuentas .boton-donar:hover {
+    font-size: 30px;
+    background-color: #27796b;
+
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

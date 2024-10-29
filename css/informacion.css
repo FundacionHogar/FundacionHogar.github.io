@@ -1,0 +1,195 @@
+.container_quienes_somos {
+    margin-top: 90px;
+    padding-bottom: 50px;
+}
+
+
+.quienes_somos h2 {
+    max-width: 100%;
+    position: relative;
+    left: 40%;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.quienes_somos h1 {
+    max-width: 100%;
+    position: relative;
+    left: 44%;
+    font-size: 35px;
+}
+.quienes_somos h1 b {
+    color: #50b3a2;
+    
+}
+
+
+
+.video {
+    margin-left: 18%;
+}
+
+
+
+.quienes_somos p {
+    font-size: 25px;
+    margin: 40px 80px;
+}
+
+.container_mision_vision h3{
+    max-width: 100vh;
+    position: relative;
+    left: 46%;
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: #50b3a2;
+    
+}
+.container_mision_vision p {
+    font-size: 25px;
+    margin: 40px 80px;
+}
+
+.container_que_hacemos h3{
+    max-width: 100vh;
+    position: relative;
+    left: 40%;
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: #50b3a2;
+    
+}
+.container_que_hacemos p {
+    font-size: 25px;
+    margin: 40px 80px;
+}
+
+
+.donde_encontrarnos h3{
+    max-width: 100vh;
+    position: relative;
+    left: 44%;
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: #50b3a2;
+    
+}
+.donde_encontrarnos p {
+    font-size: 25px;
+    margin: 40px 220px;
+
+}
+
+.map {
+    max-width: 180vh;
+    position: relative;
+    left: 5%;
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1170px) {
+
+    .container_quienes_somos {
+        margin-top: 180px;
+        padding-bottom: 50px;
+    }
+
+    .quienes_somos h2 {
+        max-width: 100vh;
+        position: relative;
+        left: 22%;
+        margin-bottom: 30px;
+        font-size: 35px;
+    }
+    .quienes_somos h1 {
+        max-width: 100vh;
+        position: relative;
+        left: 30%;
+        font-size: 35px;
+    }
+    .quienes_somos h1 b {
+        color: #50b3a2;
+        
+    }
+    
+
+
+
+    .container_mision_vision h3{
+        max-width: 100vh;
+        position: relative;
+        left: 36%;
+        margin-bottom: 30px;
+        font-size: 35px;
+        color: #50b3a2;
+        
+    }
+    .container_mision_vision p {
+        font-size: 15px;
+        margin: 40px 80px;
+    }
+
+    .video {
+        margin: 0;
+        width: 100%;
+    }
+    
+
+
+    .container_que_hacemos h3{
+        max-width: 100vh;
+        position: relative;
+        left: 20%;
+        margin-bottom: 30px;
+        font-size: 35px;
+        color: #50b3a2;
+        
+    }
+    .container_que_hacemos p {
+        font-size: 25px;
+        margin: 40px 80px;
+    }
+
+
+    .donde_encontrarnos h3{
+        max-width: 100%;
+        position: relative;
+        left: 32%;
+        margin-bottom: 30px;
+        font-size: 35px;
+        color: #50b3a2;
+        
+    }
+    .donde_encontrarnos p {
+        width: 30%;
+        font-size: 15px;
+        margin: 40px 220px;
+    }
+
+
+
+    .map {
+        left: 0;
+        width: 100%;
+        max-width: auto;
+    }
+      
+}
+
+
+
+
+
+
+
+
+
+
+

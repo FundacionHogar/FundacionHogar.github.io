@@ -96,6 +96,7 @@
 
     .imagen1 {
         margin-top: 20px;
+        margin-left: -20px;
         margin-bottom: 40px;
         width: 340px;
     }
@@ -108,6 +109,7 @@
 
     .container-imagenes .imagen2 {
         width: 340px;
+        margin-left: -20px;
         margin-bottom: 40px;
     }
 

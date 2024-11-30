@@ -94,22 +94,26 @@
 
 
 
-@media (max-width: 1170px) {
+@media (max-width: 870px) {
 
     .container_quienes_somos {
+        width: 100vh;
+        max-width: 100%;
         margin-top: 180px;
         padding-bottom: 50px;
     }
 
     .quienes_somos h2 {
-        max-width: 100vh;
+        width: 100vh;
+        max-width: 100%;
         position: relative;
         left: 22%;
         margin-bottom: 30px;
         font-size: 35px;
     }
     .quienes_somos h1 {
-        max-width: 100vh;
+        width: 100vh;
+        max-width: 100%;
         position: relative;
         left: 30%;
         font-size: 35px;
@@ -123,7 +127,7 @@
 
 
     .container_mision_vision h3{
-        max-width: 100vh;
+        max-width: 100%;
         position: relative;
         left: 36%;
         margin-bottom: 30px;
@@ -138,13 +142,15 @@
 
     .video {
         margin: 0;
-        width: 100%;
+        width: 100vh;
+        max-width: 100%;
     }
     
 
 
     .container_que_hacemos h3{
-        max-width: 100vh;
+        width: 100vh;
+        max-width: 100%;
         position: relative;
         left: 20%;
         margin-bottom: 30px;
@@ -159,6 +165,7 @@
 
 
     .donde_encontrarnos h3{
+        width: 100vh;
         max-width: 100%;
         position: relative;
         left: 32%;
@@ -170,17 +177,20 @@
     .donde_encontrarnos p {
         width: 30%;
         font-size: 15px;
-        margin: 40px 220px;
+        margin: 40px 180px;
     }
 
 
 
-    .map {
-        left: 0;
-        width: 100%;
-        max-width: auto;
-    }
-      
+   
+
+
+
+
+
+
+
+    
 }
 
 

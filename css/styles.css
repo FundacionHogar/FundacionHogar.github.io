@@ -91,6 +91,21 @@ header{
 
 
 
+.nota {
+  position: fixed;
+  z-index: 2;
+  padding: 20px;
+  margin-top: 15px;
+  margin-left: 80%;
+  margin-right: 15px;
+  border: 2px solid #50b3a2;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+
+.nota h3 {
+  color: #50b3a2;
+}
 
 
 
@@ -384,12 +399,12 @@ button .suscribir:hover {
 
 
 
-@media (max-width: 1170px){
+@media (max-width: 870px){
   header{
     position: fixed;
     top: 0;
     margin-left: -140px;
-    width: 100%;
+    width: 100vh;
     height: 150px;
     background-color: #fff;
     box-shadow: 0 4px 25px -22px #000;
@@ -398,11 +413,26 @@ button .suscribir:hover {
 }
 
 .header-content {
-    max-width: 420px;
+    max-width: 220px;
     margin: auto;
     display: grid;
     justify-content: space-between;
 }
+
+
+.nota {
+  width: 180px;
+  padding: 10px;
+  margin-top: 85px;
+  margin-left: 60%;
+  margin-right: 40%;
+  border: 2px solid #50b3a2;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  font-size: 10px;
+}
+
+
 
 
 .logo {
@@ -483,7 +513,7 @@ button .suscribir:hover {
 }
 .slider-txt {
   margin-top: 90px;
-  margin-left: 65px;
+  margin-left: 40px;
   width: 35%;
 }
 .slider-txt h1 {
@@ -502,7 +532,7 @@ button .suscribir:hover {
 .slider-txt p {
   font-size: 15px;
   color: #5c5c5c;
-  min-width: 420px;
+  min-width: 380px;
 
 }
 
@@ -549,7 +579,8 @@ button .suscribir:hover {
   padding: 100px 0;
   background-color: #50b3a2;
   width: 100vh;
-  max-width: auto;
+  max-width: 100%;
+
 }
 
 .horario-info h2{
@@ -591,8 +622,8 @@ button .suscribir:hover {
 
 .map {
   width: 100vh;
+  max-width: 100%;
 
-  max-width: auto;
 }
 
 
@@ -606,16 +637,15 @@ button .suscribir:hover {
 .footer {
 	background-color: #50b3a2;
   width: 100vh;
-  
-  max-width: auto;
+  max-width: 100%;
   height: 580px;
 }
 
 .container-footer {
-  left: -500px;
 	display: flex;
 	flex-direction: column;
 	padding: 30px;
+  
 }
 
 .menu-footer {
@@ -629,20 +659,12 @@ button .suscribir:hover {
 	text-transform: uppercase;
 }
 
-.contact-info,
-.information,
-.newsletter {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-    margin: 0 110px;
-}
 
 .contact-info ul,
 .information ul{
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+	
 }
 
 .contact-info ul li,

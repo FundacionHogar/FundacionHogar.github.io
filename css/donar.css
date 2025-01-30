@@ -11,7 +11,7 @@
 }
 
 .container-contacto {
-    margin-left: 27%;
+    margin-left: 22%;
     
 }
 
@@ -51,6 +51,7 @@
 
 .boton-numero-telefono p {
     margin-left: 180px;
+    font-weight: 700;
 }
 
 .numero-telefono .numero {
@@ -59,8 +60,15 @@
 }
 
 .correo {
+    margin-left: 50px;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 28px;
+}
+
+.correo a{
+    text-decoration: none;
+	color: #000000;
+	font-weight: 500;
 }
 
 .texto {
@@ -71,7 +79,7 @@
 
 
 .texto h2 {
-    margin-left: 37%;
+    margin-left: 17%;
     margin-bottom: 40px;
     color: #50b3a2;
 }

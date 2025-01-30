@@ -1,3 +1,91 @@
+*{ 
+    max-width: max-content;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 200vh;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 0 4px 25px -22px #000;
+    z-index: 2;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1 b {
+    color: #50b3a2;
+}
+
+
+.menu {
+    height: 80px;
+}
+
+.menu nav {
+    height: 100%;
+}
+
+.menu nav ul {
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.menu nav ul li {
+    height: 100%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.menu-selected:before{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: #50b3a2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menu nav ul li a {
+    color: #777777;
+    transition: color 300ms;
+}
+
+.menu nav ul li a:hover {
+    color: #50b3a2;
+}
+
+.menu .text-menu-selected {
+    color: #50b3a2;
+}
+
+
+
+
+
+
 .container_quienes_somos {
     margin-top: 90px;
     padding-bottom: 50px;
@@ -7,14 +95,14 @@
 .quienes_somos h2 {
     max-width: 100%;
     position: relative;
-    left: 40%;
+    padding-left: 56%;
     margin-bottom: 30px;
     font-size: 35px;
 }
 .quienes_somos h1 {
-    max-width: 100%;
+    max-width: 100vh;
     position: relative;
-    left: 44%;
+    padding-left: 61%;
     font-size: 35px;
 }
 .quienes_somos h1 b {
@@ -25,7 +113,8 @@
 
 
 .video {
-    margin-left: 18%;
+    margin-left: 23%;
+    max-width: 400vh;
 }
 
 
@@ -36,6 +125,7 @@
 }
 
 .container_mision_vision h3{
+    margin-top: 40px;
     max-width: 100vh;
     position: relative;
     left: 46%;
@@ -63,24 +153,25 @@
     margin: 40px 80px;
 }
 
-
-.donde_encontrarnos h3{
-    max-width: 100vh;
-    position: relative;
-    left: 44%;
-    margin-bottom: 30px;
-    font-size: 35px;
+.informacion-contacto h3 {
     color: #50b3a2;
-    
 }
-.donde_encontrarnos p {
-    font-size: 25px;
-    margin: 40px 220px;
 
+
+.informacion-contacto {
+    width: 800px;
+    margin-top: -5%;
+    margin-left: 33%;
+    margin-bottom: 2%;
+    padding: 20px 60px;
+    border: 2px solid #50b3a2;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 .map {
-    max-width: 180vh;
+    min-width: 190vh;
     position: relative;
     left: 5%;
 
@@ -89,7 +180,9 @@
 
 
 
-
+footer {
+    min-width: 100%;
+}
 
 
 

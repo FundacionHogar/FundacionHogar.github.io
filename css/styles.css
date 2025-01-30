@@ -98,13 +98,13 @@ header{
   margin-top: 15px;
   margin-left: 80%;
   margin-right: 15px;
-  border: 2px solid #50b3a2;
+  border: 2px solid #ff0000;
   border-radius: 5px;
   background-color: #FFFFFF;
 }
 
 .nota h3 {
-  color: #50b3a2;
+  color: #ff0000;
 }
 
 
@@ -292,7 +292,7 @@ header{
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
-    margin: 0 110px;
+  margin: 0 110px;
 }
 
 .contact-info ul,
@@ -339,7 +339,7 @@ header{
 	display: block;
 	margin-bottom: 3rem;
 	margin-top: 2rem;
-	width: 100%;
+	width: 100vh;
 	font-family: inherit;
 }
 
@@ -389,7 +389,10 @@ button .suscribir:hover {
 	color: #50b3a2;
 }
 
-
+.informacion-legal p{
+  color: #FFFFFF;
+  font-size: 20px;
+}
 
 
 

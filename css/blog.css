@@ -61,6 +61,25 @@
     background: #3a7a77;
 }
 
+.event-actions button a{
+    font-size: 30px;
+    background: #50b3a2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.event-actions button:hover a{
+    background: #3a7a77;
+}
+
+
+
+
+
 
 .imagen1 {
     margin-top: 20px;
